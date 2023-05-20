@@ -1,0 +1,51 @@
+.formOuter {
+    border: black 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formInner {
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.formInner input[type=text],
+input[type=password] {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh;
+    border-bottom: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    width: 25vw;
+    height: 5vh;
+
+}
+
+input[type=submit] {
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    height: 4vh;
+    width: 6vw;
+}
+
+.formOuter a {
+    display: flex;
+    flex-direction: column;
+    color: rgb(70, 65, 65);
+    font-style: italic;
+}

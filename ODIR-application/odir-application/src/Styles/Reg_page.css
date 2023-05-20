@@ -1,0 +1,28 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.background img {
+    height: 100vh;
+    width: 65vw;
+}
+
+.subForm {
+    /* outline: 5px black solid; */
+    /* display: flex;
+    flex-direction: column; */
+
+    padding: 5%;
+
+}
+
+
+
+nav {
+    float: right;
+    padding-top: 2%;
+}
